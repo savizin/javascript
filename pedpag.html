@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Carrito de compras para abonar los cuadros que desean adquirir. Hasta en 6 cuotas sin interés.">
+    <meta name="keywords" content="pago, precios, tarjetas, bancos, transferencia, confirmar, comprar, adquirir, envíos, cuadros, acrílico, decoración, creatividad, diseños exclusivos.">
+    <script defer src="https://kit.fontawesome.com/df59baf6b8.js" crossorigin="anonymous"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <title>SVN - Arte en colores - Carrito de compras</title> 
+</head>
+
+<body>
+    
+    <header id="arriba" class="headersecciones">
+
+        <div class="tituloysubtsecciones">     
+            <!--Título principal-->         
+            <h1 class="tituloysubtsecciones__titulo"> SVN </h1> 
+            <!--Subtítulo principal-->          
+            <h2 class="tituloysubtsecciones__h2 animate__animated animate__zoomIn"> ARTE EN COLORES </h2> 
+        </div>
+
+        <!--Barra buscadora de la página-->
+        <form class="alcostado__barra">              
+            <input type="search" name="barradebusqueda" id="barradebusqueda" placeholder="Buscar">
+            <label for="barradebusqueda"><img src="imagenes/lupa.png" alt="iconobusqueda"></label>
+        </form>  
+
+        <!--Ícono de carrito de compras-->
+        <div class="alcostado__carrito"> 
+			<a id="cart">
+                <img class="alcostado__carrito--img" src="imagenes/carritocompras.png" alt="carritocompras">
+                <span id="cont1" class="alcostado__carrito--conteo">0</span>
+            </a>
+        </div>
+
+        <!--Contenido del carrito-->
+        <div>
+            <div class="shopping-cart">
+                <div class="shopping-cart-header">
+                    <img class="alcostado__carrito--img" src="imagenes/carritocompras.png" alt="carritocompras"></i><span class="alcostado__carrito--conteo2" id="cont2">0</span>
+                    <div class="shopping-cart-total">
+                        <span class="lighter-text">Total:</span>
+                        <span class="main-color-text" id="total">$0</span>
+                    </div>
+                </div> 
+            <ul class="shopping-cart-items" id="listaPro"></ul>
+            <a href="carrito.html" class="button">Comprar</a>
+            </div>  
+        </div>
+
+        <!--Íconos de redes sociales, enlaces-->
+        <div class="alcostado__img"> 
+            <a href="http://www.instagram.com/svn.arteencolores" target="_blank"><img class="insta-icon" src="imagenes/instagramnegro.png" alt="instagram"></a> 
+            <a href="http://www.facebook.com/arteencolores.svn" target="_blank"><img class="face-icon" src="imagenes/facebooknegro.png" alt="facebook"></a> 
+        </div>          
+
+    </header>
+
+    <!--Formulario de pedido-->
+    <main class="mainComprar">
+        
+        <div id="numPedido" class="frm-row">
+        </div>
+
+        <section id="obrasParaComprar" class="table-responsive">    
+
+        </section>
+
+        <div id="montoTotal">
+        </div>
+        <div class="row form-footer botones-factura" id="botones-factura">
+            <div class="col-md-4 mb-2">
+                <a href="index.html" class="btn btn-info btn-block">Seguir comprando</a>
+            </div>
+
+            <div id="botonpago" class="col-xs-12 col-md-4"> 
+
+            </div>
+        </div>
+        <div class="mensaje">
+            <p>¡Gracias por su compra!</p> 
+        </div>  
+
+    </main>
+    
+    <!--Formulario pago-->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <strong class="modal-title" id="exampleModalLabel">Formulario de pago</strong>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span class="x" aria-hidden="true">&times;</span>
+              </button>
+              
+            </div>
+            <div class="modal-body">
+                
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+              <button id="pago" type="button" class="btn btn-primary">Confirmar pago</button>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <div id="saludoFinal">
+          
+    </div>
+
+    <footer class="colorpiepag container-fluid">
+
+        <!--Referencia a envíos, forma de pago y sitio seguro-->
+        <div class="footer1"> 
+            <img src="imagenes/camion.png" alt="camión"> <small>ENVÍOS A TODO EL PAÍS</small>
+            <img src="imagenes/tarjetadecredito.png" alt="tarjeta de crédito"> <small>HASTA 6 CUOTAS</small>
+            <img src="imagenes/candadocerrado.png" alt="candado cerrado"> <small>SITIO SEGURO</small>
+        </div>
+
+        <!--Ubicación-->
+        <div class="ubicacion"> 
+            <a href="https://www.google.com/maps/place/San+Francisco,+C%C3%B3rdoba/@-31.4231819,-62.1282483,13z/data=!3m1!4b1!4m5!3m4!1s0x95cb28228bc1d067:0x8f04abfe8c3700f4!8m2!3d-31.4249992!4d-62.0841599" target="_blank"><img src="imagenes/localizacion.png" alt="localizacion"></a>
+            <p> De San Francisco para todo el mundo!!!</p>
+            <img src="imagenes/planeta.png" alt="planeta">
+        </div>
+
+        <!--Copyrigh-->
+        <div id="copyright"> &copy; 2021 - Página creada por Savi - Todos los derechos reservados </div>
+
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" referrerpolicy="no-referrer"></script>
+    <script src="js/carritocompras.js"></script>
+    <script src="js/pedidoypago.js"></script>
+
+</body>
+
+</html>

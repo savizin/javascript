@@ -1,0 +1,152 @@
+[
+  {
+    "img1": "imagenes/obra1.jpg",
+    "img2": "imagenes/obra1-2.jpg",
+    "img3": "imagenes/obra1-3.jpg",
+    "nb": "CALAVERA",
+    "precio": 6500,
+    "med": "60x60",
+    "vendido": false,
+    "id": "1"
+  },
+  {
+    "img1": "imagenes/obra2.jpg",
+    "img2": "imagenes/obra2-2.jpg",
+    "img3": "imagenes/obra2-3.jpg",
+    "nb": "PAPA BUDA",
+    "precio": 4000,
+    "med": "40x40",
+    "vendido": false,
+    "id": "2"
+  },
+  {
+    "img1": "imagenes/obra3.jpg",
+    "img2": "imagenes/obra3-2.jpg",
+    "img3": "imagenes/obra3-3.jpg",
+    "nb": "PSICODELICO",
+    "precio": 4500,
+    "med": "40x70",
+    "vendido": false,
+    "id": "3"
+  },
+  {
+    "img1": "imagenes/obra4.jpg",
+    "img2": "imagenes/obra4-2.jpg",
+    "img3": "imagenes/obra4-3.jpg",
+    "nb": "TRES MUJERES",
+    "precio": 6500,
+    "med": "40x70",
+    "vendido": false,
+    "id": "4"
+  },
+  {
+    "img1": "imagenes/obra5.jpg",
+    "img2": "imagenes/obra5-2.jpg",
+    "img3": "imagenes/obra5-3.jpg",
+    "nb": "CARAS",
+    "precio": 4500,
+    "med": "50x50",
+    "vendido": false,
+    "id": "5"
+  },
+  {
+    "img1": "imagenes/obra6.jpg",
+    "img2": "imagenes/obra6-2.jpg",
+    "img3": "imagenes/obra6-3.jpg",
+    "nb": "EL CHICO",
+    "precio": 6500,
+    "med": "50x70",
+    "vendido": false,
+    "id": "6"
+  },
+  {
+    "img1": "imagenes/obra7.jpg",
+    "img2": "imagenes/obra7-2.jpg",
+    "img3": "imagenes/obra7-3.jpg",
+    "nb": "JIRAFA",
+    "precio": 7000,
+    "med": "40x80",
+    "vendido": false,
+    "id": "7"
+  },
+  {
+    "img1": "imagenes/obra8.jpg",
+    "img2": "imagenes/obra8-2.jpg",
+    "img3": "imagenes/obra8-3.jpg",
+    "nb": "EL DIABLO Y LA NIÑA",
+    "precio": 5000,
+    "med": "50x70",
+    "vendido": false,
+    "id": "8"
+  },
+  {
+    "img1": "imagenes/obra9.jpg",
+    "img2": "imagenes/obra9-2.jpg",
+    "img3": "imagenes/obra9-3.jpg",
+    "nb": "ALIEN VOLANDO",
+    "precio": 4000,
+    "med": "30x40",
+    "vendido": false,
+    "id": "9"
+  },
+  {
+    "img1": "imagenes/obra10.jpg",
+    "img2": "imagenes/obra10-2.jpg",
+    "img3": "imagenes/obra10-3.jpg",
+    "nb": "GALAXIA",
+    "precio": 6500,
+    "med": "50x70",
+    "vendido": false,
+    "id": "10"
+  },
+  {
+    "img1": "imagenes/obra11.jpg",
+    "img2": "imagenes/obra11-2.jpg",
+    "img3": "imagenes/obra11-3.jpg",
+    "nb": "SOMBRAS CAMINANDO",
+    "precio": 4000,
+    "med": "30x40",
+    "vendido": false,
+    "id": "11"
+  },
+  {
+    "img1": "imagenes/obra12.jpg",
+    "img2": "imagenes/obra12-2.jpg",
+    "img3": "imagenes/obra12-3.jpg",
+    "nb": "SELVA TROPICAL",
+    "precio": 6000,
+    "med": "40x70",
+    "vendido": false,
+    "id": "12"
+  },
+  {
+    "img1": "imagenes/obra13.jpg",
+    "img2": "imagenes/obra13-2.jpg",
+    "img3": "imagenes/obra13-3.jpg",
+    "nb": "LOS NIÑOS",
+    "precio": 4000,
+    "med": "40x40",
+    "vendido": false,
+    "id": "13"
+  },
+  {
+    "img1": "imagenes/obra14.jpg",
+    "img2": "imagenes/obra14-2.jpg",
+    "img3": "imagenes/obra14-3.jpg",
+    "nb": "EL DRAGÓN",
+    "precio": 7000,
+    "med": "40x70",
+    "vendido": false,
+    "id": "14"
+  },
+  {
+    "img1": "imagenes/obra15.jpg",
+    "img2": "imagenes/obra15-2.jpg",
+    "img3": "imagenes/obra15-3.jpg",
+    "nb": "GRITO DE COLOR",
+    "precio": 15000,
+    "med": "100x120",
+    "vendido": false,
+    "id": "15"
+  }
+]
